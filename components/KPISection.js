@@ -16,7 +16,7 @@ export default function KPISection({ data }) {
   const totals = data.reduce((acc, curr) => {
     acc.revenue += curr.revenue || 0;
     acc.profit += curr.profit || 0;
-    acc.orders += 1;
+    acc.orders += (curr.orders || 1);
     return acc;
   }, { revenue: 0, profit: 0, orders: 0 });
 
