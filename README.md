@@ -137,7 +137,15 @@ The following table contains foundational questions for testing staff on Generat
 
 ---
 
-## 🛠️ 4. Maintenance & Support
+## 🚀 5. Deployment (Vercel)
+
+This project is optimized for **Vercel**. For detailed production setup, environment variable configuration, and database connection, please refer to:
+
+👉 **[Production Deployment Guide (production.md)](./production.md)**
+
+---
+
+## 🛠️ 6. Maintenance & Support
 
 - **Data API**: `app/api/sales/route.js` (Server-side CSV/DB processing).
 - **CSV Path**: `data/sales_data.csv` (Default local fallback).
